@@ -698,7 +698,6 @@ margin-bottom: 8px;
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: var(--modal-text-pp);
-
 }
 
 .modal-span{
@@ -721,15 +720,15 @@ margin-bottom: 8px;
   --accent-bg: #404bbf;
 }
 
-.modal-check-box-one:checked+.modal-span {
-    background-color: #404bbf;
+.modal-check-box-one:checked+.modal-label-check-box > .modal-span {
+    background-color: var(--accent-bg);
     border: none;
-    fill:#F4F4FD;
+    fill: var(--tigr-bolgarin);
 }
 
 
 :root{
-    --tigr-golbarin: #F4F4FD;
+    --tigr-bolgarin: #F4F4FD;
 }
 
 .modal-link-privacy{
