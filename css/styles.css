@@ -756,3 +756,8 @@ margin-bottom: 8px;
 }
 
 
+.modal-check-box-one{
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+}
