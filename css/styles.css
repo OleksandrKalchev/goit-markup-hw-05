@@ -712,7 +712,8 @@ margin-bottom: 8px;
     align-items: center;
     justify-content: center;
     fill: transparent;
-
+    margin-right: 8px;
+    cursor: pointer;
 
 }
 
@@ -720,10 +721,10 @@ margin-bottom: 8px;
   --accent-bg: #404bbf;
 }
 
-.modal-check-box-one:checked + .modal-span {
-  background-color: var(--accent-bg);
-  border: none;
-  fill: var(--tigr-golbarin);
+.modal-check-box-one:checked+.modal-span {
+    background-color: #404bbf;
+    border: none;
+    fill:#F4F4FD;
 }
 
 
@@ -757,7 +758,5 @@ margin-bottom: 8px;
 
 
 .modal-check-box-one{
-    position: absolute;
-    opacity: 0;
-    pointer-events: none;
+    display: none;
 }
