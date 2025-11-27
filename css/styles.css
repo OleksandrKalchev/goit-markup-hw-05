@@ -723,7 +723,7 @@ margin-bottom: 8px;
 .modal-check-box-one:checked + .modal-span {
   background-color: var(--accent-bg);
   border: none;
-  fill: var(--tigr-golbarin)
+  fill: var(--tigr-golbarin);
 }
 
 
@@ -754,4 +754,5 @@ margin-bottom: 8px;
     border: none;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 
